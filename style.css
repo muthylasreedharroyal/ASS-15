@@ -1,0 +1,22 @@
+body{
+    height: 100px;
+    display: grid;
+    place-items: center;
+    background: #222;
+}
+.slider-container{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    overflow-x: 100px;
+    /* padding: 10px; */
+
+}
+.slider-container img{
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
